@@ -1,0 +1,45 @@
+.fluid-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+//http://www.gettyimages.com/detail/56164762
+.header {
+  height: 85%;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  text-transform: uppercase;
+  color: var(--color-white);
+  background-image: url("../img/photo-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 100rem;
+}
+.faith {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.info {
+  background-color: var(--color-primary);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.nums {
+  background-color: #e7e7e7;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.events {
+  background-color: #ffffff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

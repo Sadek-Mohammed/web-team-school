@@ -1,0 +1,24 @@
+$bp-largest: 67.8125em; //1085
+$bp-large: 62.5em; //1000
+$bp-medium: 46.875em; //750
+$bp-small: 37.5em; //600
+:root {
+  --color-primary: rgb(211, 71, 72);
+  --color-white: rgb(255, 254, 255);
+  --color-black: rgb(0, 0, 0);
+  --color-black-text: rgb(223, 223, 223);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%;
+  }
+}
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
